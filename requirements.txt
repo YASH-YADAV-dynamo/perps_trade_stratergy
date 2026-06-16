@@ -1,0 +1,8 @@
+hotstuff-python-sdk
+python-dotenv
+eth-account
+aiohttp
+fastapi
+uvicorn[standard]
+cryptography
+PyJWT
