@@ -1,0 +1,13 @@
+# Backtesting dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pyarrow>=12.0.0  # Required for parquet support (fastparquet also works)
+aiohttp>=3.8.0
+python-dateutil>=2.8.0
+
+# Optional but recommended
+duckdb>=0.9.0  # For SQL-like queries on parquet files
